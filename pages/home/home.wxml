@@ -1,0 +1,33 @@
+<!-- pages/home/home.wxml -->
+<!-- <text>pages/home/home.wxml</text>
+<van-button type="primary">按钮</van-button>
+<van-button type="default">默认按钮</van-button>
+<van-button type="primary">主要按钮</van-button>
+<van-button type="info">信息按钮</van-button>
+<van-button type="warning">警告按钮</van-button>
+<van-button type="danger">危险按钮</van-button>
+<van-button color="linear-gradient(to right, #aaf, #0cc)">渐变色按钮</van-button> -->
+<view class="movie" wx:for="{{list}}" wx:key="{{index}}">
+  <!-- 左侧 电影 海报 -->
+  <image class="movie-img" src="{{item.images.small}}"></image>
+  <view class="movie-info">
+    <!-- 电影名字  -->
+    <view class="movie-title">电影:{{item.title}}</view>
+    <!-- 评分 -->
+    <view class="movie-score">评分:{{item.rating.average}}</view>
+    <!-- 主演 -->
+    <view>主演：{{item.casts[0].name}}</view>
+    <!-- 年份 -->
+    <view>年份:2019</view>
+    <!-- 电影详情 -->
+    <button class="movie-comment" bindtap="details" data-id="{{item.id}}">详情</button>
+  </view>
+</view>
+<!-- <view wx:for="{{list}}" wx:key="{{index}}">
+  <van-card
+  desc="{{item.genres}}"
+  title="{{item.title}}"
+  thumb="{{ item.images.small }}"
+/>
+</view> -->
+

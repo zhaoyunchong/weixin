@@ -1,0 +1,52 @@
+/* pages/details1/details1.wxss */
+/* 背景图片 */
+.detail-container{
+ height:400rpx;/*元素的高度*/
+ opacity: .5;/*元素的透明度*/
+ filter:blur(40rpx);/*模糊滤镜*/ 
+}
+/* 遮罩层 */
+.detail-mask{
+  width:100%;
+  height:400rpx;
+  background:#333;
+  position: absolute;
+  left:0;
+  top:0;
+  z-index:-1;
+}
+/* 电影的详细信息 */
+.detail-info{
+  /* 显示模糊图片的上方 */
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height:400rpx;
+  display: flex;
+}
+/* 图片大小 */
+.detail-img{
+  width:280rpx;/*左侧图片*/
+  height:90%;
+  margin-right:24rpx;
+  /* margin-top:10rpx; */
+}
+.detail{
+  line-height:80rpx;
+}
+.detail view{
+  color:#fff;
+  font-size:24rpx;
+}
+.detail .detail-score{
+  color:#faaf00;
+}
+.desc{
+  color:#555;
+  font-size:24rpx;
+  padding:20rpx;
+}
+.commit-img{
+  width: 100%;
+}

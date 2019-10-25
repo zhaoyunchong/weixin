@@ -1,0 +1,42 @@
+/* pages/home/home.wxss */
+/* 一部电影 */
+.movie{
+  display: flex;
+  padding:10rpx;
+  /* border:1rpx solid #f00; */
+}
+/* 左侧图片 */
+.movie-img{
+  width: 200rpx;
+  height:300rpx;
+  margin-right:60rpx;
+}
+/* 右侧电影介绍 */
+.movie-info{
+  /* display: flex; */
+  /* flex:1;将右侧充满 */
+  width:450rpx;
+  align-items: center;
+  font-size:28rpx;
+  line-height:1.8;/*原有间距的1.8倍*/
+}
+/* 标题 */
+.movie-title{
+  color:#666;
+  /* width: 180rpx; */
+  font-size:40rpx;
+}
+/* 分数 */
+.movie-score{
+  color:#faaf00;/*橙色高亮*/
+}
+/* 按钮 */
+.movie-comment{
+  height: 60rpx;
+  background:#e54847;
+  color:#fff;
+  /* line-height: 60rpx; */
+  font-size:27rpx;
+  margin-top:10rpx;
+}
+/* 阿辉 */

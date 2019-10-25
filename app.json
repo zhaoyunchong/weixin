@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/details1/details1",
+    "pages/profile/prpfole",
+    "pages/map/map",
+    "pages/mymovie/mymovie" 
+  ],
+  "window": {
+    "backgroundColor": "#aaf",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#aaf",
+    "navigationBarTitleText": "正在热映",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color":"#000",
+    "selectedColor":"#00f",
+    "list": [{
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "images/01.png",
+      "selectedIconPath": "images/01_active.png"
+    },
+    {
+      "pagePath": "pages/profile/prpfole",
+      "text": "个人中心",
+      "iconPath": "images/02.png",
+      "selectedIconPath": "images/02_active.png"
+    },
+    {
+      "pagePath": "pages/map/map",
+      "text": "地图",
+      "iconPath": "images/03.png",
+      "selectedIconPath": "images/03_active.png"
+    },
+    {
+      "pagePath": "pages/mymovie/mymovie",
+      "text": "我的",
+      "iconPath": "images/04.png",
+      "selectedIconPath": "images/04_active.png"
+    }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+<!-- pages/profile/prpfole.wxml
+<text>pages/profile/prpfole.wxml</text>
+<!-- 用户头像 -->
+<!-- <open-data type="userAvatarUrl"></open-data> -->
+<!-- 用户昵称 -->
+<!-- <open-data type="userNickName"></open-data> -->
+<!-- <button open-type="getUserInfo" bindgetuserinfo="handler"></button> -->
+<view class="profile">
+  <view class="profile-img">
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <view class="profile-name" style="text-align:center;">
+    <open-data type="userNickName"></open-data>
+  </view>
+</view>
+<button open-type="getUserInfo" bindgetuserinfo="handler">获取用户信息</button>
